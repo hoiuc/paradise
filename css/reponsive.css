@@ -58,7 +58,7 @@ position: absolute;
 right: 0;
 top: 0;
 }
-ul.inline.responsive li:hover {
+ul.inline.responsive li a:hover {
 	background-color: #0ACB82;;
 }
 ul.inline.responsive li {

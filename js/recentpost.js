@@ -17,7 +17,7 @@ if(entry.link[k].rel=='replies'&&entry.link[k].type=='text/html'){var commenttex
 if (entry.link[k].rel == 'alternate') {posturl = entry.link[k].href;break;}}var thumburl;try {thumburl=entry.media.url;}catch (error)
 {
 s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){
-thumburl=d;} else thumburl='http://smashingtips.com/blogger/nothumb.jpg';
+thumburl=d;} else thumburl='https://lh3.googleusercontent.com/-hIAh7racMkY/VzymApguzOI/AAAAAAAACd8/jXUDJJCicVc8zaKeSMIatEGjTjnMdBuWACCo/s512/nothumb.jpg';
 
 }
 

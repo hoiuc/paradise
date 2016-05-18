@@ -1,3 +1,4 @@
+@media (min-width: 1025px) {
 .wrapper{
 	width: 100%;
 }
@@ -10,12 +11,6 @@
 .w300{
 	width: 25%;
 }
-[class*="col-"] {
-    width: 100%;
-}
-@media (min-width: 1025px) {
-	.col-1{width: 100%}
-	.col-2{width: 80%}
 }
 /*=====Nhỏ hơn 1025px====*/
 @media (max-width:1025px ) {	

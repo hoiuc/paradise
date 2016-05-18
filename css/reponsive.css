@@ -37,7 +37,13 @@
 }
 
 }
-
+@media screen and (max-width:900px) {
+  ul.inline li:not(:first-child) {display: none;}
+  ul.inline li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
 @media (max-width:900px ) {
 ul.inline.responsive {position: relative;}
 ul.inline.responsive li.icon {

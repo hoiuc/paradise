@@ -36,7 +36,7 @@
 	width: 100% !important;
 }
 }
-@media screen and (max-device-width:900px) {
+@media screen and (max-width:900px) {
   ul.inline li:not(:first-child) {display: none;}
   ul.inline li.icon {
     float: right;
@@ -51,7 +51,7 @@
 	display: none;
 }
 }
-@media screen and (max-device-width:900px ) {
+@media screen and (max-width:900px ) {
 ul.inline.responsive {position: relative;}
 ul.inline.responsive li.icon {
 position: absolute;

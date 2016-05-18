@@ -179,6 +179,50 @@ li {
 .menu li:hover {
     background-color: #0ACB82;
 }
+
+/*========PAGE-NAVIGATION=========*/
+#blog-pager, .pagenavi {
+  clear: both;
+  margin: 30px auto 30px;
+}
+#blog-pager a, .pagenavi span, .pagenavi a {
+  color: #fff;
+  background-color: #17A4D7;
+  border-color: #17A4D7;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 18px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border-radius: 0;
+}
+#blog-pager a:visited, .pagenavi a:visited {
+  color: #fff;
+}
+#blog-pager a:hover, .pagenavi a:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #0ACB82;
+}
+.pagenavi .current {
+  color: #fff;
+  text-decoration: none;
+  background: #0ACB82;
+}
+.pagenavi .pages, .pagenavi .current {
+  font-weight: bold;
+}
+.pagenavi .pages {
+  color: #fff;
+  background: #17A4D7;
+}
 /*===========THONG KE===========*/
 
 #hotposts * {

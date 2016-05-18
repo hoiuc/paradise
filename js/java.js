@@ -45,7 +45,7 @@ $("h3 a").hover(function(){
     var nav = $(".menu");
     
     $(window).scroll(function () {
-        if ($(this).scrollTop() < 110) {
+        if ($(this).scrollTop() > 110) {
             nav.addClass("f-nav");
         } else {
             nav.removeClass("f-nav");

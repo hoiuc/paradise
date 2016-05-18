@@ -14,7 +14,7 @@ ul.list li::after {
     overflow: hidden;
     clear: both
 }
-.clear{
+.clearbt{
     clear: both;
     height: 2rem;
 }
@@ -138,6 +138,7 @@ a {
 }
 .top-midd {
     background: transparent url("../img/bg_header.png") repeat-x scroll 0% 0%;
+    height: 85px;
 }
 .menu {
     text-align: center;

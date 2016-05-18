@@ -679,6 +679,7 @@ code {
     width: 72px !important;
 }
 .comments .avatar-image-container img {
+    background: #0ACB82;
     width: 65px;
     height: 65px;
     border-radius: 100%;

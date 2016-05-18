@@ -560,6 +560,9 @@ li {
     max-width: 500px;
     clear: both;
 }
+.comment-form{
+    padding-top: 3em;
+}
 ul.w2b_recent_comments {
     list-style: none;
     margin: 0;

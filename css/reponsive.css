@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media screen and (min-device-width: 1025px) {
 .wrapper{
 	width: 100%;
 }
@@ -13,7 +13,7 @@
 }
 }
 /*=====Nhỏ hơn 1025px====*/
-@media (max-width:1025px ) {	
+@media screen and (max-device-width:1025px ) {	
 .sidebar1{
 	display: none;
 }
@@ -25,7 +25,7 @@
 }
 }
 /*======Nhỏ hơn 910px=====*/
-@media (max-width:910px ) {
+@media screen and (max-device-width:910px ) {
 .sidebar2{
 	display: none;
 }
@@ -36,7 +36,7 @@
 	width: 100% !important;
 }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-device-width:900px) {
   ul.inline li:not(:first-child) {display: none;}
   ul.inline li.icon {
     float: right;
@@ -51,7 +51,7 @@
 	display: none;
 }
 }
-@media (max-width:900px ) {
+@media screen and (max-device-width:900px ) {
 ul.inline.responsive {position: relative;}
 ul.inline.responsive li.icon {
 position: absolute;

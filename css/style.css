@@ -624,7 +624,17 @@ code {
     font-family: monospace;
 }
 .comments .avatar-image-container {
-    max-height: 80px !important;
+    float: left;
+    overflow: hidden;
+    max-height: 72px !important;
+    width: 72px !important;
+}
+.comments .avatar-image-container img {
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 3px double #17A4D7;
+    max-width: 65px !important;
 }
 .main-content h2.title,
 .sidebar1 h2,
@@ -714,21 +724,18 @@ code {
     float: right;
 }
 .FollowByEmail .follow-by-email-inner .follow-by-email-address {
-    font-family: Open Sans;
     outline: medium none;
-    border: medium none;
-    font-size: 15px;
+    border: medium none !important;
+    font-size: 15px !important;
     padding: 10px;
     border-radius: 3px;
-    width: 250px;
+    width: 250px !important;
     height: auto !important;
 }
 .FollowByEmail .follow-by-email-inner .follow-by-email-submit {
-    color: #FFF;
-    background: #34495E none repeat scroll 0% 0%;
-    cursor: pointer;
+    background: #34495E none repeat scroll 0% 0% !important;
     padding: 11px;
-    width: 100px;
+    width: 100px !important;
     height: auto !important;
 }
 .foot-left {
@@ -750,9 +757,15 @@ code {
     position: fixed;
     top: 41px;
 }
+#recent-posts li{
+    max-height: 72px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
 #recent-posts img {
     float: left;
     margin: 0px 5px 5px 0px;
+    max-width: 72px;
 }
 .rmlink a {
     padding: 6px 5px;
@@ -811,16 +824,22 @@ code {
     font-weight: bold;
     text-transform: uppercase;
 }
-a:current
-/*COMMENT*/
+.post-footer-line{
+    padding: 1em;
+}
 
+/*COMMENT*/
 .comments .comment-block {
-    margin-left: 50px !important;
+    margin-left: 80px !important;
     position: relative;
-    -moz-box-shadow: 0 5px 6px #C3C1C1, 0 0 0 #fff inset;
+    border-left: 1px solid #6FA7DD;
+    border-right: 1px solid #6FA7DD;
+    border-bottom: 1px solid #6FA7DD;
+   -moz-box-shadow: 0 5px 6px #C3C1C1, 0 0 0 #fff inset;
     -webkit-box-shadow: 0 5px 6px #C3C1C1, 0 0 0 #fff inset;
     box-shadow: 0 5px 6px #C3C1C1, 0 0 0 #fff inset;
 }
+
 .comments .comments-content .comment-header,
 .comments .comments-content .comment-content {
     margin: 0 0 8px;

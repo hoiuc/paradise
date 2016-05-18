@@ -35,14 +35,21 @@
 .w500{
 	width: 100%;
 }
-
 }
 @media screen and (max-width:900px) {
   ul.inline li:not(:first-child) {display: none;}
   ul.inline li.icon {
     float: right;
-    display: inline-block;
+    display: inline-block !important;
   }
+  ul.inline li.icon a{
+  	font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+.sidebar{
+	display: none;
+}
 }
 @media (max-width:900px ) {
 ul.inline.responsive {position: relative;}
@@ -51,8 +58,8 @@ position: absolute;
 right: 0;
 top: 0;
 }
-ul.inline.responsive li.icon a{
-	font-size: 20px;
+ul.inline.responsive li:hover {
+	background-color: #0ACB82;;
 }
 ul.inline.responsive li {
 float: none;

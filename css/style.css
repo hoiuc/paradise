@@ -14,6 +14,10 @@ ul.list li::after {
     overflow: hidden;
     clear: both
 }
+.clear{
+    clear: both;
+    height: 2rem;
+}
 ul.inline li.icon {
     display: none;
 }

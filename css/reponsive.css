@@ -1,0 +1,64 @@
+.wrapper{
+	width: 100%;
+}
+.w1100{
+	width: 80%;
+}
+.w500{
+	width: 50%;
+}
+.w300{
+	width: 25%;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media (min-width: 1025px) {
+	.col-1{width: 100%}
+	.col-2{width: 80%}
+}
+/*=====Nhỏ hơn 1025px====*/
+@media (max-width:1025px ) {	
+.sidebar1{
+	display: none;
+}
+.w500{
+	width: 70%;
+}
+.w300{
+	width: 30%;
+}
+}
+/*======Nhỏ hơn 910px=====*/
+@media (max-width:910px ) {
+.sidebar2{
+	display: none;
+}
+.ads{
+	display: none;
+}
+.w500{
+	width: 100%;
+}
+
+}
+
+@media (min-width:900px ) {
+ul.inline.responsive {position: relative;}
+ul.inline.responsive li.icon {
+position: absolute;
+right: 0;
+top: 0;
+}
+ul.inline.responsive li.icon a{
+	font-size: 20px;
+}
+ul.inline.responsive li {
+float: none;
+display: inline;
+}
+ul.inline.responsive li a {
+display: block;
+text-align: left;
+}
+}

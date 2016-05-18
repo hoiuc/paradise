@@ -39,6 +39,10 @@ $("h3 a").hover(function(){
     $(this).stop().animate({marginLeft:"0px"},400);
 });
 });
+// menu reponsive
+function menuRepon() {
+    document.getElementsByClassName("inline")[0].classList.toggle("responsive");
+}
 // Nav position fixed
   jQuery("document").ready(function($){
     

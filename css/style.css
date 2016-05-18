@@ -1,4 +1,5 @@
 @import url(iconFont.css);
+@import url(reponsive.css);
 .clearfix::after,
 ul.list li::after {
     clear: both
@@ -12,6 +13,9 @@ ul.list li::after {
     height: 0;
     overflow: hidden;
     clear: both
+}
+ul.inline li.icon {
+    display: none;
 }
 .mgauto {
     margin: 0 auto
@@ -173,6 +177,7 @@ li {
     line-height: 35px;
     display: inline-block;
     text-transform: uppercase;
+    transition: 0.3s;
     white-space: nowrap
 }
 .menu li:hover {
@@ -824,9 +829,6 @@ code {
     font-weight: bold;
     text-transform: uppercase;
 }
-.post-footer-line{
-    padding: 1em;
-}
 
 /*COMMENT*/
 .comments .comment-block {
@@ -1008,7 +1010,7 @@ code {
     border-left: none;
 }
 .page-foot .vcc .left {
-    width: 560px;
+    width: 50%;
     float: left;
     font-size: 11px;
     color: #454545;
@@ -1090,4 +1092,13 @@ code {
 #related-posts ul li:hover {
     background: rgba(125, 240, 166, 0.72);
     border-left: 5px solid #26DF3D;
+}
+.feed-links{
+    display: none;
+}
+.comments h4{
+    background: #6FA7DD;
+    padding: 1em;
+    font: bold 20px sans-serif;
+    color: #fff;
 }

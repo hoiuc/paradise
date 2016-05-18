@@ -34,9 +34,9 @@ commentYN = "yes";
 // Chữ margin amin
 $(document).ready(function(){
 $("h3 a").hover(function(){
-    $(this).stop().animate({"marginLeft:30px"},400);}
+    $(this).stop().animate({marginLeft:"30px"},400);}
   ,function(){
-    $(this).stop().animate({"marginLeft:0px"},400);
+    $(this).stop().animate({marginLeft:"0px"},400);
 });
 });
 // Nav position fixed

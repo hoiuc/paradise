@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 1025px) {
+@media screen and (min-width: 1025px) {
 .wrapper{
 	width: 100%;
 }
@@ -13,7 +13,7 @@
 }
 }
 /*=====Nhỏ hơn 1025px====*/
-@media screen and (max-device-width:1025px ) {	
+@media screen and (max-width:1025px ) {	
 .sidebar1{
 	display: none;
 }
@@ -25,7 +25,7 @@
 }
 }
 /*======Nhỏ hơn 910px=====*/
-@media screen and (max-device-width:910px ) {
+@media screen and (max-width:910px ) {
 .sidebar2{
 	display: none;
 }

@@ -18,10 +18,10 @@
 	display: none;
 }
 .w500{
-	width: 70%;
+	width: 70% !important;
 }
 .w300{
-	width: 30%;
+	width: 30% !important;
 }
 }
 /*======Nhỏ hơn 910px=====*/
@@ -33,7 +33,7 @@
 	display: none;
 }
 .w500{
-	width: 100%;
+	width: 100% !important;
 }
 }
 @media screen and (max-width:900px) {

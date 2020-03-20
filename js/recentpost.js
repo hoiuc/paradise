@@ -21,7 +21,7 @@ thumburl=d;} else thumburl='https://lh3.googleusercontent.com/-hIAh7racMkY/VzymA
 
 }
 
-var postdate = entry.published.$t;var cdyear = postdate.substring(0,4);var cdmonth = postdate.substring(5,7);var cdday = postdate.substring(8,10);var monthnames = new Array();monthnames[1] = "Jan";monthnames[2] = "Feb";monthnames[3] = "Mar";monthnames[4] = "Apr";monthnames[5] = "May";monthnames[6] = "Jun";monthnames[7] = "Jul";monthnames[8] = "Aug";monthnames[9] = "Sep";monthnames[10] = "Oct";monthnames[11] = "Nov";monthnames[12] = "Dec";document.write('');
+var postdate = entry.published.$t;var cdyear = postdate.substring(0,4);var cdmonth = postdate.substring(5,7);var cdday = postdate.substring(8,10);var monthnames = new Array();monthnames[1] = "Tháng 1";monthnames[2] = "Tháng 2";monthnames[3] = "Tháng 3";monthnames[4] = "Tháng 4";monthnames[5] = "Tháng 5";monthnames[6] = "Tháng 6";monthnames[7] = "Tháng 7";monthnames[8] = "Tháng 8";monthnames[9] = "Tháng 9";monthnames[10] = "Tháng 10";monthnames[11] = "Tháng 11";monthnames[12] = "Tháng 12";document.write('');
 
   if (i%2==0) 
     {
